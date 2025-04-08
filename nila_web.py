@@ -11,7 +11,7 @@ from email.mime.multipart import MIMEMultipart
 st.set_page_config(page_title="NILA Oil Booking", page_icon="🌿")
 
 # Load and display product image
-image = Image.open(r"C:\\Users\\Hello\\Downloads\\Nila_oil_bottle.png")  # Update path if needed
+image = Image.open("Nila_oil_bottle.png")  
 st.image(image, caption="NILA Herbal Hair Oil - 100ml", use_container_width=True)
 
 # UI Layout
