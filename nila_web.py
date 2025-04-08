@@ -11,7 +11,7 @@ from email.mime.multipart import MIMEMultipart
 st.set_page_config(page_title="NILA Oil Booking", page_icon="🌿")
 
 # Load and display product image
-image = Image.open("Nila_oil_bottle.png")  
+image = Image.open("Nila_oil_bottle.png")  # Update path if needed
 st.image(image, caption="NILA Herbal Hair Oil - 100ml", use_container_width=True)
 
 # UI Layout
@@ -110,5 +110,4 @@ st.markdown("---")
 st.markdown("📧 Contact us at: suguna.sundarajothi@outlook.com | 📍 Coimbatore, India")
 st.markdown("📸 Follow us on [Instagram](https://instagram.com/nila_herbal_hairoil)")
 st.markdown("📸 Any problem [Instagram](https://instagram.com/queen_of_hills_queenpapa)")
-st.markdown("📞 For inquiries, call us at: +91 8344923310")
 st.markdown("🌿 Experience the power of nature with NILA Herbal Hair Oil!")
