@@ -12,7 +12,7 @@ st.set_page_config(page_title="NILA Oil Booking", page_icon="🌿")
 
 # Load and display product image
 image = Image.open("Nila_oil_bottle.png")  # Update path if needed
-st.image(image, caption="NILA Herbal Hair Oil - 100ml", use_container_width=True)
+st.image(image, caption="NILA Herbal Hair Oil ", use_container_width=True)
 
 # UI Layout
 st.title("🌿 NILA Herbal Hair Oil")
