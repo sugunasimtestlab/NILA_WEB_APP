@@ -30,7 +30,7 @@ phone = st.text_input("Phone Number")
 email = st.text_input("Email Address (optional)")
 address = st.text_area("Delivery Address")
 quantity = st.selectbox("Select Quantity (100ml per bottle)", [1, 2, 3, 5, 10])
-payment_method = st.radio("Payment Method", ["Cash on Delivery", "UPI Payment", "Bank Transfer"])
+payment_method = st.radio("Payment Method", ["Cash on Delivery", "UPI Payment"])
 
 payment_screenshot = None
 if payment_method == "UPI Payment":
