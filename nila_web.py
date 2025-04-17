@@ -51,7 +51,7 @@ st.markdown("**UPI ID for Payment:** `sugunasundarajothi@okhdfcbank`")
 # Email sending function
 def send_order_email(name, phone, email, address, quantity, total_volume_ml, total_price, payment_method):
     sender_email = "sugunasundarajothi@gmail.com"  # Replace with your Gmail address
-    sender_password = "gwza aqdf smra pmgp"  # Replace with your generated app password
+    sender_password = "ardn uamn dhei puyq"  # Replace with your generated app password
     receiver_email = "suguna.sundarajothi@outlook.com"
 
     subject = "New NILA Oil Order Received"
