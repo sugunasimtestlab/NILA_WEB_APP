@@ -20,11 +20,11 @@ st.image(r"C:\Users\sugun\Downloads\Nila_banner.png", caption="Explore Our Herba
 products = {
     "NILA Herbal Hair Oil 100ml": {
         "price": 199,
-        "image": r"C:\Users\sugun\Downloads\Nila_oil_bottle.png"  # Make sure this image is in your folder
+        "image": "Nila_oil_bottle.png"  # Make sure this image is in your folder
     },
     "NILA Herbal Hair Pack 50g": {
         "price": 99,
-        "image": r"C:\Users\sugun\Downloads\Nila_hairpack.png"  # Make sure this image is in your folder
+        "image":"Nila_hairpack.png"  # Make sure this image is in your folder
     }
 }
 # --- Product Catalog Preview ---
