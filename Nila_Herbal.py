@@ -14,7 +14,7 @@ st.set_page_config(page_title="NILA Products Booking", page_icon="🌿")
 
 
 # Show banner image correctly
-st.image(r"C:\Users\sugun\Downloads\Nila_banner.png", caption="Explore Our Herbal Collection 🌿", use_container_width=True)
+st.image("NILA Herbal Banner.png", caption="Explore Our Herbal Collection 🌿", use_container_width=True)
 
 # Correct image path handling for products
 products = {
