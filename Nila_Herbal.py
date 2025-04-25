@@ -20,7 +20,7 @@ products = {
     "NILA Herbal Hair Oil 100ml": {
         "price": 199,
         "image": "Nila_oil_bottle.png",
-        "ingredients": "Hibiscus, Amla, Curry Leaves,Rosemary, Fenugreek, Neem, Almond, Aloe Vera, Bhringraj, Holy Basil (Tulsi), Kuppaimeni, Coconut Oil ,Ect....",
+        "ingredients": "Hibiscus, Amla, Curry Leaves,Fenugreek, Neem, Almond, Aloe Vera, Bhringraj, Holy Basil, Indian Nettle,Ect....",
         "benefits": "Reduces Hair Fall, Promotes Hair Growth, Nourishes Scalp, Strengthens Hair Roots"
     },
     "NILA Herbal Hair Pack 50g": {
