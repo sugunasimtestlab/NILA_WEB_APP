@@ -34,7 +34,7 @@ for product_name, details in products.items():
         st.image(details["image"], use_container_width=True)
     with col2:
         st.markdown(f"**{product_name}**")
-        st.markdown(f"💸 ₹{details['price']}")
+        st.markdown(f" Price ₹{details['price']}")
         st.markdown("---")
 
 # --- Product Selection ---
