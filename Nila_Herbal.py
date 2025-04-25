@@ -19,13 +19,18 @@ st.image("NILA Herbal Banner.png", caption="Explore Our Herbal Collection 🌿",
 products = {
     "NILA Herbal Hair Oil 100ml": {
         "price": 199,
-        "image": "Nila_oil_bottle.png"  # Make sure this image is in your folder
+        "image": "Nila_oil_bottle.png",
+        "ingredients": "Hibiscus, Amla, Curry Leaves,Rosemary, Fenugreek, Neem, Almond, Aloe Vera, Bhringraj, Holy Basil (Tulsi), Kuppaimeni, Coconut Oil ,Ect....",
+        "benefits": "Reduces Hair Fall, Promotes Hair Growth, Nourishes Scalp, Strengthens Hair Roots"
     },
     "NILA Herbal Hair Pack 50g": {
         "price": 99,
-        "image":"Nila_hairpack.png"  # Make sure this image is in your folder
+        "image": "Nila_hairpack.png",
+        "ingredients": "Amla Powder, Hibiscus Powder, Neem Powder, Rose Petals",
+        "benefits": "Cleanses Scalp, Controls Dandruff,Strengthens Roots"
     }
 }
+
 # --- Product Catalog Preview ---
 st.markdown("### 🌿 Our Products")
 for product_name, details in products.items():
@@ -34,8 +39,11 @@ for product_name, details in products.items():
         st.image(details["image"], use_container_width=True)
     with col2:
         st.markdown(f"**{product_name}**")
-        st.markdown(f" Price ₹{details['price']}")
+        st.markdown(f"💰 **Price:** ₹{details['price']}")
+        st.markdown(f"🌿 **Ingredients:** {details.get('ingredients', 'Details coming soon')}")
+        st.markdown(f"✨ **Benefits:** {details.get('benefits', 'Details coming soon')}")
         st.markdown("---")
+
 
 # --- Product Selection ---
 st.markdown("🛍️ Choose your product(s) below and place your order:")
