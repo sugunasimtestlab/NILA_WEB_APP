@@ -82,10 +82,13 @@ if payment_method == "UPI Payment":
 
 st.markdown(f"💰 **Total Amount:** ₹{total_price}** ")
 st.markdown("💳 **UPI ID for Payment:** `sugunasundarajothi@okhdfcbank`")
+
+email_user = st.secrets["general"]["email_user"]
+email_password = st.secrets["general"]["email_password"]
 # Email sending function
 def send_order_email(name, phone, email, address, order_summary, total_price, payment_method):
-    sender_email = "sugunasundarajothi@gmail.com"  
-    sender_password = "ardn uamn dhei puyq"  
+    sender_email = email_user
+    sender_password = email_password  
     receiver_email = "suguna.sundarajothi@outlook.com"
 
     subject = "New NILA Product Order Received"
