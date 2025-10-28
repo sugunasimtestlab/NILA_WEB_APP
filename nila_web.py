@@ -19,7 +19,7 @@ st.image("NILA Herbal Banner.png", caption="Explore Our Herbal Collection 🌿",
 # Correct image path handling for products
 products = {
     "NILA Herbal Hair Oil 100ml": {
-        "price": 199,
+        "price": 299,
         "image": "Nila_oil_bottle.png",
         "ingredients": "Hibiscus, Amla, Curry Leaves,Fenugreek, Neem, Almond, Aloe Vera, Bhringraj, Holy Basil, Indian Nettle,Ect....",
         "benefits": "Reduces Hair Fall, Promotes Hair Growth, Nourishes Scalp, Strengthens Hair Roots"
