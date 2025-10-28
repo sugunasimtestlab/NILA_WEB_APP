@@ -16,7 +16,7 @@ st.image("NILA Herbal Banner.png", caption="Explore Our Herbal Collection 🌿",
 # --- Product Data ---
 products = {
     "NILA Herbal Hair Oil 100ml": {
-        "price": 199,
+        "price": 299,
         "image": "Nila_oil_bottle.png",
         "ingredients": "Hibiscus, Amla, Curry Leaves, Fenugreek, Neem, Almond, Aloe Vera, Bhringraj, Holy Basil, Indian Nettle",
         "benefits": "Reduces Hair Fall, Promotes Growth, Nourishes Scalp"
@@ -115,3 +115,4 @@ st.markdown("📸 Follow us on [Instagram](https://instagram.com/nila_herbal_hai
 st.markdown("📸 Support [Instagram](https://instagram.com/queen_of_hills_queenpapa)")
 st.markdown("📞 For inquiries, call us at: +91 8344987196")
 st.markdown("🌿 Experience the power of nature with NILA Herbal Hair Oil!")
+
